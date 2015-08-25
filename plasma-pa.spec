@@ -36,4 +36,15 @@ A new Volume manager plasmoid.
 %install
 %ninja_install -C build
 
-%files
+%find_lang kcm_pulseaudio
+%find_lang plasma_applet_org.kde.plasma.volume
+
+%files -f kcm_pulseaudio.lang plasma_applet_org.kde.plasma.volume.lang
+%{_libdir}/libQPulseAudioPrivate.so
+%{_libdir}/qt5/plugins/kcms/kcm_pulseaudio.so
+%{_libdir}/qt5/qml/org/kde/plasma/private/volume
+%{_datadir}/kconf_update/disable_kmix.upd
+%{_datadir}/kconf_update/plasmaVolumeDisableKMixAutostart.pl
+%{_datadir}/kpackage/kcms/kcm_pulseaudio
+%{_datadir}/kservices5/*.desktop
+%{_datadir}/plasma/plasmoids/org.kde.plasma.volume
