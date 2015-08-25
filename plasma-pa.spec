@@ -39,7 +39,7 @@ A new Volume manager plasmoid.
 %find_lang kcm_pulseaudio
 %find_lang plasma_applet_org.kde.plasma.volume
 
-%files -f kcm_pulseaudio.lang plasma_applet_org.kde.plasma.volume.lang
+%files -f kcm_pulseaudio.lang,plasma_applet_org.kde.plasma.volume.lang
 %{_libdir}/libQPulseAudioPrivate.so
 %{_libdir}/qt5/plugins/kcms/kcm_pulseaudio.so
 %{_libdir}/qt5/qml/org/kde/plasma/private/volume
