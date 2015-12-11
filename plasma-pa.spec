@@ -23,6 +23,9 @@ BuildRequires: cmake(KF5Plasma)
 BuildRequires: cmake(KF5DocTools)
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(libpulse)
+# (tpg) needed for update script
+# kmix -> pa
+BuildRequires: kdelibs-devel
 
 %description
 A new Volume manager plasmoid.
