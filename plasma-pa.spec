@@ -55,4 +55,8 @@ A new Volume manager plasmoid.
 %{_datadir}/kservices5/*.desktop
 %{_datadir}/plasma/plasmoids/org.kde.plasma.volume
 %doc %{_docdir}/HTML/en/plasma-pa
+%doc %{_docdir}/HTML/ca/plasma-pa
+%doc %{_docdir}/HTML/pt_BR/plasma-pa
 %lang(uk) %doc %{_docdir}/HTML/uk/plasma-pa
+%lang(ca) %doc %{_docdir}/HTML/ca/plasma-pa
+%lang(pt_BR) %doc %{_docdir}/HTML/pt_BR/plasma-pa
