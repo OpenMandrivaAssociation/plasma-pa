@@ -3,7 +3,7 @@
 
 Summary: The new Plasma5 Volume Manager
 Name: plasma-pa
-Version: 5.6.4
+Version: 5.6.5
 Release: 1
 License: GPLv2+
 Group: Graphical desktop/KDE
@@ -55,6 +55,7 @@ A new Volume manager plasmoid.
 %{_datadir}/kservices5/*.desktop
 %{_datadir}/plasma/plasmoids/org.kde.plasma.volume
 %lang(en) %doc %{_docdir}/HTML/en/plasma-pa
+%lang(it) %doc %{_docdir}/HTML/it/plasma-pa
 %lang(uk) %doc %{_docdir}/HTML/uk/plasma-pa
 %lang(ca) %doc %{_docdir}/HTML/ca/plasma-pa
 %lang(pt_BR) %doc %{_docdir}/HTML/pt_BR/plasma-pa
