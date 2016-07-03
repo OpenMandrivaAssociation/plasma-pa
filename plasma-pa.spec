@@ -3,7 +3,7 @@
 
 Summary: The new Plasma5 Volume Manager
 Name: plasma-pa
-Version: 5.6.5
+Version: 5.7.0
 Release: 1
 License: GPLv2+
 Group: Graphical desktop/KDE
@@ -40,8 +40,8 @@ A new Volume manager plasmoid.
 %install
 %ninja_install -C build
 
-%find_lang kcm_pulseaudio
-%find_lang plasma_applet_org.kde.plasma.volume
+%find_lang kcm_pulseaudio || touch kcm_pulseaudio.lang
+%find_lang plasma_applet_org.kde.plasma.volume || touch plasma_applet_org.kde.plasma.volume.lang
 
 %files -f kcm_pulseaudio.lang,plasma_applet_org.kde.plasma.volume.lang
 %{_libdir}/libQPulseAudioPrivate.so
@@ -54,8 +54,9 @@ A new Volume manager plasmoid.
 %{_datadir}/kpackage/kcms/kcm_pulseaudio
 %{_datadir}/kservices5/*.desktop
 %{_datadir}/plasma/plasmoids/org.kde.plasma.volume
-%lang(en) %doc %{_docdir}/HTML/en/plasma-pa
-%lang(it) %doc %{_docdir}/HTML/it/plasma-pa
-%lang(uk) %doc %{_docdir}/HTML/uk/plasma-pa
-%lang(ca) %doc %{_docdir}/HTML/ca/plasma-pa
-%lang(pt_BR) %doc %{_docdir}/HTML/pt_BR/plasma-pa
+%optional %lang(en) %doc %{_docdir}/HTML/en/plasma-pa
+%optional %lang(en) %doc %{_docdir}/HTML/en/kcontrol/plasma-pa
+%optional %lang(it) %doc %{_docdir}/HTML/it/plasma-pa
+%optional %lang(uk) %doc %{_docdir}/HTML/uk/plasma-pa
+%optional %lang(ca) %doc %{_docdir}/HTML/ca/plasma-pa
+%optional %lang(pt_BR) %doc %{_docdir}/HTML/pt_BR/plasma-pa
