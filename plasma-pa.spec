@@ -3,7 +3,7 @@
 
 Summary: The new Plasma5 Volume Manager
 Name: plasma-pa
-Version: 5.7.4
+Version: 5.8.0
 Release: 1
 License: GPLv2+
 Group: Graphical desktop/KDE
@@ -22,6 +22,7 @@ BuildRequires: cmake(KF5I18n)
 BuildRequires: cmake(KF5Plasma)
 BuildRequires: cmake(KF5DocTools)
 BuildRequires: pkgconfig(glib-2.0)
+BuildRequires: pkgconfig(gconf-2.0)
 BuildRequires: pkgconfig(libpulse)
 # (tpg) needed for update script
 # kmix -> pa
@@ -47,13 +48,11 @@ A new Volume manager plasmoid.
 %{_libdir}/libQPulseAudioPrivate.so
 %{_libdir}/qt5/plugins/kcms/kcm_pulseaudio.so
 %{_libdir}/qt5/qml/org/kde/plasma/private/volume
-%{_datadir}/apps/kconf_update/disable_kmix.upd
-%{_datadir}/apps/kconf_update/plasmaVolumeDisableKMixAutostart.pl
-%{_datadir}/kconf_update/disable_kmix.upd
-%{_datadir}/kconf_update/plasmaVolumeDisableKMixAutostart.pl
 %{_datadir}/kpackage/kcms/kcm_pulseaudio
 %{_datadir}/kservices5/*.desktop
 %{_datadir}/plasma/plasmoids/org.kde.plasma.volume
+%{_datadir}/kconf_update/*
+%{_datadir}/kde4/apps/kconf_update/*
 %optional %lang(ca) %doc %{_docdir}/HTML/ca/plasma-pa
 %optional %lang(ca) %doc %{_docdir}/HTML/ca/kcontrol/plasma-pa
 %optional %lang(en) %doc %{_docdir}/HTML/en/plasma-pa
