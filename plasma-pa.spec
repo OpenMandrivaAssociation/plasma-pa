@@ -24,6 +24,7 @@ BuildRequires: cmake(KF5DocTools)
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(gconf-2.0)
 BuildRequires: pkgconfig(libpulse)
+BuildRequires: pkgconfig(libcanberra)
 # (tpg) needed for update script
 # kmix -> pa
 BuildRequires: kdelibs-devel
