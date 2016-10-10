@@ -55,3 +55,5 @@ A new Volume manager plasmoid.
 %{_datadir}/kconf_update/*
 %{_datadir}/kde4/apps/kconf_update/*
 %{_datadir}/metainfo/org.kde.plasma.volume.appdata.xml
+%optional %lang(en) %doc %{_docdir}/HTML/en/plasma-pa
+%optional %lang(en) %doc %{_docdir}/HTML/en/kcontrol/plasma-pa
