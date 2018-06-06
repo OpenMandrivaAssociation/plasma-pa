@@ -3,7 +3,7 @@
 
 Summary: The new Plasma5 Volume Manager
 Name: plasma-pa
-Version: 5.12.3
+Version: 5.12.90
 Release: 1
 License: GPLv2+
 Group: Graphical desktop/KDE
@@ -25,9 +25,6 @@ BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(gconf-2.0)
 BuildRequires: pkgconfig(libpulse)
 BuildRequires: pkgconfig(libcanberra)
-# (tpg) needed for update script
-# kmix -> pa
-BuildRequires: kdelibs-devel
 
 %description
 A new Volume manager plasmoid.
