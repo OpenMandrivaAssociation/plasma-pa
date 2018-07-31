@@ -3,13 +3,12 @@
 
 Summary: The new Plasma5 Volume Manager
 Name: plasma-pa
-Version: 5.13.3
+Version: 5.13.4
 Release: 1
 License: GPLv2+
 Group: Graphical desktop/KDE
 Url: http://www.kde.org
 Source0: http://download.kde.org/%{stable}/plasma/%{plasmaver}/%{name}-%{version}.tar.xz
-Patch0: https://raw.githubusercontent.com/frugalware/frugalware-current/master/source/plasma/plasma-pa/plasma-pa-no-GCONF-we-DONT-need-thx.patch
 BuildRequires: cmake(ECM)
 BuildRequires: cmake(Qt5Core)
 BuildRequires: cmake(Qt5DBus)
@@ -25,6 +24,7 @@ BuildRequires: cmake(KF5DocTools)
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(libpulse)
 BuildRequires: pkgconfig(libcanberra)
+BuildConflicts: pkgconfig(gconf-2.0)
 
 %description
 A new Volume manager plasmoid.
