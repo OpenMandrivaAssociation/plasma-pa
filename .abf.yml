@@ -1,4 +1,5 @@
 removed_sources:
   plasma-pa-5.12.3.tar.xz: b3581976ff7a7898bde33b799c9814cebf022912
-sources:
   plasma-pa-5.12.6.tar.xz: 45ae23480dc3784bda055a1f37a3477dda70c68c
+sources:
+  plasma-pa-5.12.7.tar.xz: 269019dc09779bcd9d186efe60d3720c1a4e91d7
