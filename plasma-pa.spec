@@ -22,10 +22,14 @@ BuildRequires: cmake(KF5I18n)
 BuildRequires: cmake(KF5Plasma)
 BuildRequires: cmake(KF5DocTools)
 BuildRequires: cmake(KF5Notifications)
+BuildRequires: cmake(KF5Kirigami2)
+BuildRequires: sound-theme-freedesktop
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(libpulse)
 BuildRequires: pkgconfig(libcanberra)
 BuildConflicts: pkgconfig(gconf-2.0)
+Requires: pulseaudio
+Recommends: pulseaudio-module-gsettings
 
 %description
 A new Volume manager plasmoid.
