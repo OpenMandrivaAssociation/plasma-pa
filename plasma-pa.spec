@@ -29,6 +29,7 @@ BuildRequires: pkgconfig(libpulse)
 BuildRequires: pkgconfig(libcanberra)
 BuildConflicts: pkgconfig(gconf-2.0)
 Requires: pulseaudio
+Requires: sound-theme-freedesktop
 Recommends: pulseaudio-module-gsettings
 
 %description
