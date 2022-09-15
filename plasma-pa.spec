@@ -3,8 +3,8 @@
 
 Summary: The new Plasma5 Volume Manager
 Name: plasma-pa
-Version: 5.25.5
-Release: 2
+Version: 5.25.90
+Release: 1
 License: GPLv2+
 Group: Graphical desktop/KDE
 Url: http://www.kde.org
@@ -48,7 +48,8 @@ A new Volume manager plasmoid.
 %find_lang %{name} --all-name --with-html
 
 %files -f %{name}.lang
-%{_libdir}/qt5/plugins/kcms/kcm_pulseaudio.so
+%{_libdir}/qt5/plugins/plasma/kcms/systemsettings/kcm_pulseaudio.so
+%{_datadir}/applications/kcm_pulseaudio.desktop
 %{_libdir}/qt5/qml/org/kde/plasma/private/volume
 %{_datadir}/metainfo/org.kde.plasma.volume.appdata.xml
 %{_datadir}/kpackage/kcms/kcm_pulseaudio
