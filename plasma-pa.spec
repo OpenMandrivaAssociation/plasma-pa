@@ -23,6 +23,7 @@ BuildRequires: cmake(KF5Plasma)
 BuildRequires: cmake(KF5DocTools)
 BuildRequires: cmake(KF5Notifications)
 BuildRequires: cmake(KF5Kirigami2)
+BuildRequires: cmake(KF5KCMUtils)
 BuildRequires: sound-theme-freedesktop
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(libpulse)
