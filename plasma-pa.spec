@@ -3,8 +3,8 @@
 
 Summary: The new Plasma5 Volume Manager
 Name: plasma-pa
-Version: 5.27.3
-Release: 2
+Version: 5.27.4
+Release: 1
 License: GPLv2+
 Group: Graphical desktop/KDE
 Url: http://www.kde.org
