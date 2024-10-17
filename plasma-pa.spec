@@ -7,7 +7,7 @@ Version: 5.27.11
 Release: 2
 License: GPLv2+
 Group: Graphical desktop/KDE
-Url: http://www.kde.org
+Url: https://www.kde.org
 Source0: http://download.kde.org/%{stable}/plasma/%{plasmaver}/%{name}-%{version}.tar.xz
 BuildRequires: cmake(ECM)
 BuildRequires: cmake(Qt5Core)
