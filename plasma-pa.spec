@@ -5,9 +5,9 @@
 %define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
 
 Summary: Volume manager plasmoid
-Name: plasma6-pa
+Name: plasma-pa
 Version: 6.3.4
-Release: %{?git:0.%{git}.}2
+Release: %{?git:0.%{git}.}3
 License: GPLv2+
 Group: Graphical desktop/KDE
 Url: https://www.kde.org
@@ -50,6 +50,8 @@ Recommends: pulseaudio-module-gsettings
 BuildSystem: cmake
 BuildOption: -DBUILD_QCH:BOOL=ON
 BuildOption: -DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON
+# Renamed after 6.0 2025-04-27
+%rename plasma6-pa
 
 %description
 Volume manager plasmoid.
