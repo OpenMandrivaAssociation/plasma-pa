@@ -6,7 +6,7 @@
 
 Summary: Volume manager plasmoid
 Name: plasma-pa
-Version: 6.3.5
+Version: 6.4.0
 Release: %{?git:0.%{git}.}1
 License: GPLv2+
 Group: Graphical desktop/KDE
@@ -60,8 +60,7 @@ Volume manager plasmoid.
 %{_qtdir}/plugins/plasma/kcms/systemsettings/kcm_pulseaudio.so
 %{_datadir}/applications/kcm_pulseaudio.desktop
 %{_qtdir}/qml/org/kde/plasma/private/volume
-%{_datadir}/metainfo/org.kde.plasma.volume.appdata.xml
-%{_datadir}/plasma/plasmoids/org.kde.plasma.volume
 %{_libdir}/libplasma-volume.so*
-%{_qtdir}/plugins/kf6/kded/audioshortcutsservice.so
 %{_datadir}/qlogging-categories6/plasmapa.categories
+%{_qtdir}/plugins/kf6/kded/audioshortcutsservice.so
+%{_qtdir}/plugins/plasma/applets/org.kde.plasma.volume.so
