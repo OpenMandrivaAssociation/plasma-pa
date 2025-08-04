@@ -7,7 +7,7 @@
 Summary: Volume manager plasmoid
 Name: plasma-pa
 Version: 6.4.2
-Release: %{?git:0.%{git}.}1
+Release: %{?git:0.%{git}.}2
 License: GPLv2+
 Group: Graphical desktop/KDE
 Url: https://www.kde.org
