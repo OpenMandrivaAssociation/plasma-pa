@@ -61,6 +61,7 @@ Volume manager plasmoid.
 %{_datadir}/applications/kcm_pulseaudio.desktop
 %{_qtdir}/qml/org/kde/plasma/private/volume
 %{_libdir}/libplasma-volume.so*
+%{_datadir}/config.kcfg/plasmapa.kcfg
 %{_datadir}/qlogging-categories6/plasmapa.categories
 %{_qtdir}/plugins/kf6/kded/audioshortcutsservice.so
 %{_qtdir}/plugins/plasma/applets/org.kde.plasma.volume.so
